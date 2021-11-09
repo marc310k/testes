@@ -1,0 +1,31 @@
+#div1{
+    border-width: 2px;
+    border-style: solid;   
+    border-color: black;
+    box-sizing: border-box;
+    width: 200px;
+    position: relative;
+}
+
+#div2{
+    border-width: 2px;
+    border-style: solid;   
+    border-color: black;
+    box-sizing: border-box;
+    width: 200px;
+    position: relative;
+    left: 1150px;
+    bottom: 200px;
+   
+}
+
+#div3{
+    border-width: 2px;
+    border-style: solid;   
+    border-color: black;
+    box-sizing: border-box;
+    width: 200px;
+    position: fixed;
+    left: 550px;
+    top: 490px;
+}
