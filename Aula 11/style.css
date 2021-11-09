@@ -1,10 +1,17 @@
+body{
+    height: 2000px;
+}
+
+
 #div1{
     border-width: 2px;
     border-style: solid;   
     border-color: black;
     box-sizing: border-box;
     width: 200px;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #div2{
@@ -13,9 +20,9 @@
     border-color: black;
     box-sizing: border-box;
     width: 200px;
-    position: relative;
-    left: 1150px;
-    bottom: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
    
 }
 
@@ -26,6 +33,6 @@
     box-sizing: border-box;
     width: 200px;
     position: fixed;
-    left: 550px;
-    top: 490px;
+    left: 40%;
+    bottom: 0;
 }
