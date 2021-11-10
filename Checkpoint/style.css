@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@300&display=swap');
+
+.media-picture {
+    height: 720px;
+    background-image: url('https://amanha.com.br/images/p/11913/b2ap3_large_Vista-do-Jardim-Botnico-em-Curitiba.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Mochiy', cursive;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: 200;
+    background-color: rgb(131, 168, 131);
+    padding: 10px;
+  }
+
+#texto {
+    font-family: 'Poppins';
+}
+
+  html * {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+}
