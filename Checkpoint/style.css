@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@300&display=swap');
 
 .media-picture {
-    height: 720px;
+    height: 850px;
     background-image: url('https://amanha.com.br/images/p/11913/b2ap3_large_Vista-do-Jardim-Botnico-em-Curitiba.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -32,4 +32,9 @@
 
 header {
     display: block;
+}
+
+#video {
+position: absolute;
+left: 65px;
 }
