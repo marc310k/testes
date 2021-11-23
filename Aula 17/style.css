@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+.circulo {
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 50px;
+    border-radius: 50px;
+    animation: go-back 1s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(400px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 50%;
+  }
+}
