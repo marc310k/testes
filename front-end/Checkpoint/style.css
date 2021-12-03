@@ -69,9 +69,12 @@ header {
   }
 
 .icones {
-  margin: 20px;
-  width: 70px;
-  height: 70px;
+  text-align: center;
+  width: 75px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .lista {
